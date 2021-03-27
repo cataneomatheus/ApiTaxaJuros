@@ -4,8 +4,8 @@
     {
         public TaxaJuro()
         {
-            Taxa = 0.01;
+            Taxa = 0.01m;
         }
-        public double Taxa { get; set; }
+        public decimal Taxa { get; set; }
     }
 }

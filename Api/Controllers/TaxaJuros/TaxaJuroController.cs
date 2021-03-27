@@ -1,5 +1,4 @@
-﻿using Dominio;
-using Dominio.TaxaJuros;
+﻿using Dominio.TaxaJuros;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers.TaxaJuros
@@ -8,7 +7,7 @@ namespace Api.Controllers.TaxaJuros
     public class TaxaJuroController : ControllerBase
     {
         [HttpGet]
-        public double GetTaxa()
+        public decimal GetTaxa()
         {
             return new TaxaJuro().Taxa;
         }
